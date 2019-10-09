@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans&display=swap&subset=latin-ext');
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+header{
+	text-align: center;
+}
+
+body{
+	font: 400 22px/1.8 Montserrat, sans-serif;
+	color: black;
+	margin: 0;
+}
+
+.ba-container{
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	padding-top: 145px;
+	font-weight: bold;
+	color: #666666;
+
+}
+
+h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	line-height: 36px;
+	font-weight: 100;
+	padding-top: 37px;
+	color: #00cccc;
+
+}
+
+.ba-header p{
+	font-family:  'PT Sans', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #666666;
+	padding-bottom: 110px;
+}
+
+.ba-offer{
+	display: flex;
+	justify-content: space-between;
+	height: 420px;
+	
+}
+.ba-link{
+	background-color: #f7f7f7;
+	text-align: center;
+	width: 25%
+		
+}
+
+.ba-link a{
+	display: block;
+	height: 100%;
+}
+
+
+.ba-link div:hover{
+	background: #00cccc;
+	color: white;
+	
+	
+
+}
+
+.ba-link p:hover{
+	color: white;
+}
+
+.ba-link img:hover{
+	color: white;
+	
+}
+
+
+.ba-link img{
+	width: 64px;
+	margin-top: 54px;
+	margin-bottom: 54px;
+	color: white;
+	
+}
+
+.ba-link h2{
+	font-size: 21px;
+	text-transform: uppercase;
+	line-height: 22px;
+	margin-bottom: 54px;
+
+}
+
+.ba-link p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666666;
+	padding: 0 35px;
+	
+}
